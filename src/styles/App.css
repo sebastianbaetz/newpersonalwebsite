@@ -1,0 +1,32 @@
+.App {
+    background-color: #141414;
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    background: linear-gradient(
+            to right,
+            #000 0%,
+            #f77062 20%,
+            #4837ff 80%,
+            #000 100%
+    );
+    border: none;
+    height: 1px;
+}
+
+a {
+    color: #21d4fd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f77062;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}

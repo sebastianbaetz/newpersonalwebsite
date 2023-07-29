@@ -1,0 +1,138 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #f0f0f0;
+}
+
+.picture {
+    margin-top: 50px;
+    flex: 1;
+    height: 100%;
+}
+
+.picture img {
+    margin: auto;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.picture-right-pad {
+    padding-right: 10%;
+}
+
+.about {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: #ff0844;
+
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+.sbs-home-container {
+    margin: auto;
+    display: flex;
+    align-items: center !important;
+    width: 75%;
+}
+
+.prompt {
+    margin: auto;
+    width: 50%;
+    display: inline;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.prompt p {
+    font-size: 24px;
+}
+
+.socialMediaHome svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+}
+
+.socialMediaHome a {
+    text-decoration: none;
+}
+
+.socialMediaHome svg:hover {
+    color: #f77062;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.biography {
+    margin: auto;
+    width: 65%;
+    display: inline;
+    align-items: center;
+    font-size: 24px;
+}
+
+.biography h1 {
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.biography p {
+    font-size: 20px;
+}
+
+/*.skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+@media only screen and (max-width: 600px) {
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .skills {
+        text-align: center;
+    }
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+    }
+}

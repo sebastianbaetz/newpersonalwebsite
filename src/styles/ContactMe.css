@@ -1,0 +1,39 @@
+.contactMe {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #f0f0f0;
+
+}
+
+.contactMe h2 {
+    font-size: 32px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.contactMe p {
+    margin: auto;
+    width: 50%;
+    font-size: 24px;
+}
+
+/*
+.contactMe a {
+    text-decoration: none;
+    color: #21d4fd;
+
+
+}
+
+.contactMe a:hover {
+    color: #f77062;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}*/
