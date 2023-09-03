@@ -66,7 +66,7 @@ function Home() {
                         <br /> <br />
 
                         I am currently looking for full-time positions starting after I graduate (May 2024). If you would like to learn more about me,
-                        <Link to={"/"}
+                        <Link to={"https://drive.google.com/file/d/1dANLpa_K7Pkt46dqm45UF67vibRkGXk4/view"}
                               onClick={() => {
                                   window.scroll(0, 0);
                               }}

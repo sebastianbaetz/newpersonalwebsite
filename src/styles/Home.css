@@ -115,6 +115,7 @@
 }*/
 
 @media only screen and (max-width: 600px) {
+
     .about h2 {
         font-size: 40px;
     }
@@ -134,5 +135,19 @@
 
     .skills h2 {
         font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .sbs-home-container {
+        flex-direction: column;
+    }
+
+    .picture-right-pad {
+        padding-right: 0;
+    }
+
+    .prompt {
+        padding-right: 0;
     }
 }
