@@ -24,7 +24,10 @@ function Experience() {
                         San Antonio, TX
                     </h4>
                     <p>
-                        Released multiple features for over 100k financial professionals.
+                        Released multiple mission-critical features for over 100k financial professionals.
+                        Most recently was the Life Insurance Gap Analysis interactive playground, empowering
+                        an end user to discover how their financial plans and goals (including impromptu "what-ifs")
+                        will impact how much life insurance they may need.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -39,7 +42,12 @@ function Experience() {
                     <h4 className="vertical-timeline-element-subtitle">
                         San Antonio, TX
                     </h4>
-                    <p>Developed the backend infrastructure for 3 projects.</p>
+                    <p>
+                        Developed functionality for consolidation of multiple Java Virtual Machine Servers
+                        by dynamically re-routing transactions, saving $76k per year. Additionally led
+                        an initiative to unify similar Spring Boot web applications increasing the productivity
+                        of thousands of Travelers-affiliated insurance agents, as well as dozens of business-focused teams.
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
