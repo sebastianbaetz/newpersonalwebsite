@@ -94,7 +94,7 @@ export const ProjectList = [
             "\n\n" +
             "This project was a great learning experience for me because I learned how to add to and test a large codebase (much larger than I have previously worked with) that I co-wrote. Additionally, this project stressed the importance of good design choices, as information would be omitted about what we need to do until it would certainly break bad designs. Throughout this assignment, I believe our design choices were well thought out. \n" +
             "\n\n" +
-            "Most recently (mid 2022), I have been using this project as a sandbox to practice design patterns and experiment seeing where some are beneficial and some are harmful to the code. Being such a large codebase, it seems very applicable to industry style programming."
+            "Most recently (late 2022), I have been using this project as a sandbox to practice design patterns and experiment seeing where some are beneficial and some are harmful to the code. Being such a large codebase, it seems very applicable to industry style programming."
     },
     {
         name: "Freecell Solitaire",
