@@ -9,6 +9,7 @@ import Footer from "./components/Footer"
 import "./styles/App.css"
 import ProjectDisplay from "./pages/ProjectDisplay";
 import ContactMe from "./pages/ContactMe";
+import Blog from "./pages/Blog";
 
 function App() {
     return <div className={"App"}>
@@ -22,6 +23,7 @@ function App() {
                 <Route path={"/experience"} element={<Experience />} />
                 <Route path={"/"} element={<Link to={""}></Link>} />
                 <Route path={"/contactme"} element={<ContactMe />} />
+                <Route path={"/blog"} element={<Blog />} />
             </Routes>
             <hr />
             <Footer />
